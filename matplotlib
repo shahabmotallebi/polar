@@ -1,0 +1,9 @@
+import numpy as np
+import matplotlib.pyplot as plt
+teta=np.arange(0,2*np.pi+1,0.001)
+r=np.sin(teta)
+r2=np.tan(teta)
+plt.figure()
+plt.polar(teta,r,'red')
+plt.figure()
+plt.polar(teta,r2,'m')
